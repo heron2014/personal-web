@@ -1,0 +1,31 @@
+{
+  "name": "personal-web",
+  "version": "1.0.0",
+  "description": "Personal portfolio build in Node.js",
+  "main": "lib/start.js",
+  "scripts": {
+    "test": "node node_modules/lab/bin/lab ./test/*.test.js -a code  -r lcov -o lcov.info -r console -o stdout",
+    "start": "node lib/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heron2014/personal-web.git"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "heron2014",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heron2014/personal-web/issues"
+  },
+  "homepage": "https://github.com/heron2014/personal-web#readme",
+  "dependencies": {
+    "env2": "^2.0.4",
+    "hapi": "^11.1.4"
+  },
+  "devDependencies": {
+    "code": "^2.1.0",
+    "lab": "^8.0.1"
+  }
+}
