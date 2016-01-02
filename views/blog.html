@@ -1,0 +1,8 @@
+<h1>Blog</h1>
+<a href="/">Back to home</a>
+<ul>
+{{#each posts}}
+<li><a href="/blog/{{path}}">{{this.title}}</a></li>
+<li>{{this.mtime}}</li>
+{{/each}}
+</ul>
