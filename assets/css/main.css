@@ -57,8 +57,15 @@ textarea {
 
 h1 {color: blue;}
 
-
-
+body {
+    font: 16px/1.5 'Open Sans', Helvetica, Helvetica Neue, Arial, sans-serif;
+    /*background-color: #69d1e2;*/
+    background-color: #FFFFFF;
+    color: #294C67;
+    overflow-x: hidden;
+    height: 100%;
+    transition: background-color 0.4s linear;
+}
 
 
 

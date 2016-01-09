@@ -1,0 +1,35 @@
+
+/* ==========================================================================
+   Admin custom styles
+   ========================================================================== */
+body {
+	background-color: rgba(128, 128, 128, 0.23);
+	height: 100%;
+}
+
+aside {
+    height: 100%;
+    width: 20%;
+    background-color: #ffffff;
+    position: fixed;
+    float: left;
+}
+
+section {
+    width: 80%;
+    float: right;
+    margin: 0 auto;
+    position: relative;
+}
+
+button {
+	border:none;
+	width: 100%;
+	background-color: rgba(84, 83, 83, 0.9);
+	color: #ffffff;
+	padding: 10px;
+}
+
+#create-post {
+	visibility: hidden;
+}
